@@ -1,0 +1,86 @@
+body{
+	font-family: 'Bitter', serif;
+}
+.bg-light-green{background-color: #a6d8aa;}
+.light-green{color:#a6d8aa;}
+.bg-green{background-color: #39833e;}
+.green{color: #39833e;}
+.bg-pirple{background-color: #cc6699;}
+.pirple{color:#cc6699; }
+.border-pirple{border:2px solid #cc6699;}
+.bg-blue{background-color:  #99ccff;}
+.blue{color: #99ccff;}
+.border-blue{border:2px solid #99ccff;}
+.bg-dark-green{background-color:#1f4722;}
+.dark-green{color: #1f4722 ;}
+.bg-orange{background-color:  #ffb833;}
+.border-orange{border:2px solid  #ffb833;}
+.orange{color: #ffb833;}
+.top{
+	position: absolute;
+	top: 200px;
+
+}
+.bg-home{
+	width: 100%;
+	height: 600px;
+	background-image: url("https://www.kidsquestmuseum.org/wp-content/uploads/2020/06/home-21-1536x660.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.left{
+	top:280px;
+  left: 230px;
+}
+.right{
+	top: 330px;
+	 left: 420px;
+
+}
+.bg{
+	width: 100%;
+	height: 600px;
+	background-image: url("https://thumbs.dreamstime.com/z/kids-paint-child-painting-little-girl-drawing-white-sunny-study-room-rainbow-school-kid-doing-art-homework-arts-crafts-156067246.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.menu-item:hover , .hicon:hover{
+  color: red ;
+}
+.menu-item{
+	color: #000;
+}
+.hicon{
+	font-size: 22px;
+	color: black;
+}
+
+.color{animation: color 3s infinite;}
+.border-img{
+	border-style: solid;
+	border-width: 5px;
+	animation: borderimg 3s infinite;
+
+}
+@keyframes borderimg{
+	0%{border-color:#ffff99;}
+	20%{border-color:#adebad ;}
+	40%{border-color:#ffb3cc ;}
+	60%{border-color:#b3ffe6 ;}
+	80%{border-color: #dd99ff;}
+	100%{border-color: #ff1a1a;}
+}
+@keyframes color{
+	0%{color:#ffff99;}
+	20%{color:#adebad ;}
+	40%{color:#ffb3cc ;}
+	60%{color:#b3ffe6 ;}
+	80%{color: #dd99ff;}
+	100%{color: #ff1a1a;}
+}
+.footer{
+	font-size: 13px;
+	font-weight: 500;
+}
